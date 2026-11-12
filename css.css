@@ -1,0 +1,120 @@
+/* PAGE BACKGROUND & FONTS */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9ecef;
+  color: #222222;
+  margin: 0;
+  padding: 20px;
+}
+
+/* MAIN WRAPPER WITH RELATIVE POSITIONING */
+.resume-container {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  position: relative; /* Allows child elements to use absolute positioning if needed */
+  font-size: 0; /* Removes extra whitespace gap between inline-block columns */
+}
+
+/* INLINE-BLOCK COLUMNS */
+.left-column {
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+  background-color: #f6f5f3; /* Warm beige color matching your CV */
+  padding: 25px;
+  box-sizing: border-box;
+  font-size: 14px; /* Resets font size */
+}
+
+.right-column {
+  display: inline-block;
+  vertical-align: top;
+  width: 68%;
+  background-color: #ffffff;
+  padding: 30px;
+  box-sizing: border-box;
+  font-size: 14px; /* Resets font size */
+}
+
+/* PROFILE IMAGE */
+.profile-img {
+  width: 120px;
+  height: 140px;
+  object-fit: cover;
+  border: 2px solid #333333;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* TYPOGRAPHY: FONTS & COLOURS */
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 32px;
+  color: #111111;
+  margin: 0 0 5px 0;
+}
+
+.subtitle {
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: #555555;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  color: #1a1a1a;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 5px;
+  margin-top: 25px;
+}
+
+p, li {
+  line-height: 1.5;
+  color: #333333;
+}
+
+/* LIST INDENTATION */
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* LINKS (ANCHOR TAGS) */
+a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* FORM & BUTTON STYLING */
+.contact-form input,
+.contact-form textarea {
+  width: 95%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #bbbbbb;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: #222222;
+  color: #ffffff;
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444444;
+}
